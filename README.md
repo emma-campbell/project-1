@@ -1,8 +1,8 @@
 # Project 1: Information Architecture
 
-|Author|Role|
-|:---:|:---:|
-|Jennifer Ngene|Visual Designer|
-|Emma Campbell|Technician|
+|Author|Role|Github|
+|:---:|:---:|:---:|
+|Jennifer Ngene|Visual Designer||
+|Emma Campbell|Technician|@emma-campbell|
 
 
