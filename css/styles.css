@@ -73,6 +73,19 @@ main h3 {
 
 
 
+/********* SECTION 3: CULTURE *********/
+.section-3 {
+	color: white;
+	background-image: url("../images/giza/culture.png");
+	background-color: #B54900;
+	background-repeat: no-repeat;
+	height: 687.17px;
+	padding: 90px 100px 90px 660px;
+}
+
+.section-3 h2 { margin-bottom: 40px; }
+
+
 /********* SECTION 4: CUISINES *********/
 .section-4 {
 	text-align: center;
