@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400;700;900&display=swap');
 
+/*border: 1px solid hotpink;*/
+
 * { /* resets */
 	margin: 0px;
 	padding: 0px;
@@ -74,6 +76,32 @@ main h3 {
 
 
 
+/********* SECTION 2: INTRO *********/
+.section-2 {
+	padding: 70px 100px 120px 100px;
+	display: flex;
+	border: 1px solid hotpink;
+}
+.section-2 img { align-self: center; }
+.section-2 h2 { margin-bottom: 40px; }
+.section-2 p { margin-bottom: 20px; }
+
+.section-2-content {
+	flex: 1;
+	margin-right: 100px;
+}
+
+.section-2-imgs {
+	flex: 1.1; 
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.intro-2 { margin: 20px 0px 0px 50px; }
+.intro-3 { margin: -20px 0px 0px 50px; }
+
+
+
+
 /********* SECTION 3: CULTURE *********/
 .section-3 {
 	color: white;
@@ -84,9 +112,7 @@ main h3 {
 	padding: 70px 100px 90px 660px;
 	font-weight: 300;
 }
-
 .section-3 h2 { margin-bottom: 40px; }
-
 .section-3 p { margin-bottom: 20px; }
 
 
