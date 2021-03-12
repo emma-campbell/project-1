@@ -166,45 +166,9 @@ a:hover.giza-btn { background-color: #FEB702; }
 .intro-3 { margin: -20px 0px 0px 50px; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /********* SECTION 3: CULTURE *********/
 .section-3 {
-	color: white;
 	background-image: url("../images/giza/culture.png");
-	background-color: #B54900;
 	background-repeat: no-repeat;
 	height: 687.17px;
 	padding: 70px 100px 90px 660px;
@@ -212,6 +176,20 @@ a:hover.giza-btn { background-color: #FEB702; }
 }
 .section-3 h2 { margin-bottom: 40px; }
 .section-3 p { margin-bottom: 20px; }
+
+/* Culture Colors */
+.white { color: white; }
+#giza-culture { background-color: #B54900; }
+
+
+
+
+
+
+
+
+
+
 
 
 /********* SECTION 4: CUISINES *********/
