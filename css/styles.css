@@ -17,55 +17,33 @@ body {
 	font-weight: 400;
 	letter-spacing: 0.05em;
 }
-img, .btn { border-radius: 10px; }
+img, .btn, .city-group-1, .city-group-2 { border-radius: 10px; }
 
-/********* HEADER *********/
+/********* HEADER (NAV) *********/
 nav {
 	display: flex;
 	justify-content: space-between;
 	padding: 60px 100px;
+	font-family: 'Roboto', sans-serif;
 }
 nav a { text-decoration: none; }
 nav .logo {
-	color: #202020;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	font-size: 1.5em;
 }
 nav ul {
 	list-style-type: none;
-	color: #202020;
 	margin: 0;
 	padding: 0;
 	display: flex;
 }
 nav li {
 	margin: 0px 0px 0px 65px;
-	color: #B0B0B0;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 }
-nav li a:visited { color: #B0B0B0; }
-nav li a:hover { color: #202020; }
-nav li a:active { color: #202020; }
+nav li a:visited, nav li { color: #B0B0B0; }
+nav li a:hover, nav li a:active, nav .logo, nav ul { color: #202020; }
 
-
-/********* IDs *********/
-#giza-group-1 {
-	background-color: #CDEFFB;
-	border-radius: 10px;
-	margin: 0px 0px -15px 120px;
-	padding-top: 15px;
-	position: relative;
-	z-index: -1;
-}
-
-#giza-group-2 {
-	background-color: #FEC83D;
-	border-radius: 10px;
-	padding-top: -10px;
-	margin-left: 60px;
-}
 
 /********* MAIN *********/
 h1, h2, h3 {
@@ -77,13 +55,6 @@ h2 {
 	font-size: 65px;
 	line-height: 100%;
 }
-main p {
-	line-height: 200%;
-}
-main h3 {
-	font-size: 30px;
-	line-height: 300%;
-}
 .style-1, .style-2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -91,23 +62,80 @@ main h3 {
 }
 .style-1 { font-size: 22.5px; }
 .style-2 { font-size: 45px; }
-
+h3 {
+	font-size: 30px;
+	line-height: 300%;
+}
+main p {
+	line-height: 200%;
+}
+/* Book Now Button */
 a:link.btn, a:visited.btn {
-  background-color: #FEC83D;
-  box-shadow: 0px 4px 30px rgba(254, 200, 61, 0.75);
-  color: white;
-  padding: 25px 45px;
-  font-size: 1.3em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  padding: 25px 45px;
+  font-size: 1.3em;
+}
+a:hover.btn {
+	transition: 0.5s;
+	transform: translateY(-15px);
 }
 .arrow { margin-left: 10px; }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********* SECTION 1: HEADING *********/
 .section-1 {
-	padding: 50px 100px 120px 0px;
+	padding: 10px 100px 120px 0px;
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 }
@@ -123,7 +151,7 @@ h1 {
 	margin-bottom: 40px;
 	padding-right: 50px;
 }
-.heading-img { 
+.section-1-img { 
 	border-radius: 0px;
 	margin-top: -82px;
 	position: relative;
@@ -136,6 +164,45 @@ h1 {
 	justify-content: center;
 	margin-top: 100px;
 }
+
+
+/* Accents */
+.giza-btn, #giza-group-2 { background-color: #FEC83D; }
+
+
+/* Buttons */
+.giza-btn {
+	color: white;
+	box-shadow: 0px 4px 30px rgba(254, 200, 61, 0.75);
+}
+a:hover.giza-btn { background-color: #FEB702; }
+
+
+/* City Details */
+.city-group-1 {
+	position: relative;
+	z-index: -1;
+}
+
+#giza-group-1 {
+	background-color: #CDEFFB;
+	margin: 0px 0px -15px 120px;
+	padding-top: 15px;
+}
+#giza-group-2 {
+	padding-top: -10px;
+	margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -221,11 +288,9 @@ h1 {
 /********* SECTION 6: ADVENTURE *********/
 .section-6 {
 	text-align: center;
-	padding: 70px 0px 90px 0px;
+	padding: 70px 0px 130px 0px;
 }
-.section-6 h2 {
-	padding-bottom: 80px;
-}
+.section-6 h2 { padding-bottom: 60px; }
 
 
 /********* FOOTER *********/
@@ -233,9 +298,23 @@ footer {
 	background-color: #292929;
 	padding: 50px 100px 80px 100px;
 }
-
-
-
+footer p {
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 20px;
+}
+footer ul {
+	margin-left: 15px;
+}
+footer li { line-height:  170%; }
+footer, footer li a:visited, footer li a:active, footer a:link { color: #808080; }
+footer li a:hover { color: white; }
+.credits {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	font-style: italic;
+}
+footer ul, .credits { font-size: 13px; }
 
 
 
