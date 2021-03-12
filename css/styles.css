@@ -49,9 +49,7 @@ nav li {
 nav li a:visited, nav li { color: #B0B0B0; }
 nav li a:hover, nav li a:active, nav .logo, nav ul { color: #202020; }
 
-nav a.current {
-	border-bottom: 2px solid #B0B0B0;
-}
+.current { color: #202020 !important; }
 
 /********* MAIN *********/
 h1, h2, h3 {
