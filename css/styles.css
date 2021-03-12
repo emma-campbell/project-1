@@ -92,6 +92,7 @@ a:hover.btn {
 	padding: 10px 100px 120px 0px;
 	display: grid;
 	grid-template-columns: 3fr 1fr;
+	max-width: 100%;
 }
 h1 {
 	font-size: 150px;
