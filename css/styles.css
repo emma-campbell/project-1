@@ -185,7 +185,6 @@ a:hover.new-orleans-btn { background-color: #8220B1; }
 
 /********* SECTION 3: CULTURE *********/
 .section-3 {
-	background-image: url("../images/giza/culture.png");
 	background-repeat: no-repeat;
 	height: 687.17px;
 	padding: 70px 100px 90px 660px;
@@ -196,10 +195,22 @@ a:hover.new-orleans-btn { background-color: #8220B1; }
 .section-3 p { margin-bottom: 20px; }
 
 /* Culture Colors */
-#giza-culture { background-color: #B54900; }
-#fuzhou-culture { background-color: #0C79B6; }
-#nairobi-culture { background-color: #A7352D; }
-#new-orleans-culture { background-color: #B50057; }
+#giza-culture {
+	background-image: url("../images/giza/culture.png");
+	background-color: #B54900;
+}
+#fuzhou-culture {
+	background-image: url("../images/fuzhou/culture.png");
+	background-color: #0C79B6;
+}
+#nairobi-culture {
+	background-image: url("../images/nairobi/culture.png");
+	background-color: #A7352D;
+}
+#new-orleans-culture {
+	background-image: url("../images/new-orleans/culture.png");
+	background-color: #B50057;
+}
 
 
 /********* SECTION 4: CUISINES *********/
