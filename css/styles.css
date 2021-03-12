@@ -73,11 +73,12 @@ main p {
 
 /* Book Now Button */
 a:link.btn, a:visited.btn {
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding: 25px 45px;
-  font-size: 1.3em;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 25px 45px;
+	font-size: 1.3em;
 }
 a:hover.btn {
 	transition: 0.5s;
@@ -121,26 +122,44 @@ h1 {
 
 /* Accents */
 .giza-btn, #giza-group-2 { background-color: #FEC83D; }
+.fuzhou-btn, #fuzhou-group-2 { background-color: #FEB13D; }
+.nairobi-btn, #nairobi-group-2 { background-color: #FF7EB4; }
+.new-orleans-btn, #new-orleans-group-2 { background-color: #E4ACFF; }
 
 /* Buttons */
 .giza-btn {
-	color: white;
 	box-shadow: 0px 4px 30px rgba(254, 200, 61, 0.75);
 }
 a:hover.giza-btn { background-color: #FEB702; }
 
+.fuzhou-btn {
+	box-shadow: 0px 4px 30px rgba(254, 177, 61, 0.75);
+}
+a:hover.fuzhou-btn { background-color: #FF9900; }
+
+.nairobi-btn {
+	box-shadow: 0px 4px 30px rgba(255, 126, 180, 0.75);
+}
+a:hover.nairobi-btn { background-color: #FF2983; }
+
+.new-orleans-btn {
+	box-shadow: 0px 4px 30px rgba(228, 172, 255, 0.75);
+}
+a:hover.new-orleans-btn { background-color: #8220B1; }
+
 /* City Details */
 .city-group-1 {
+	margin: 0px 0px -15px 120px;
+	padding-top: 15px;
 	position: relative;
 	z-index: -1;
 }
+.city-group-2 { margin-left: 60px; }
 
-#giza-group-1 {
-	background-color: #CDEFFB;
-	margin: 0px 0px -15px 120px;
-	padding-top: 15px;
-}
-#giza-group-2 { margin-left: 60px; }
+#giza-group-1 { background-color: #CDEFFB; }
+#fuzhou-group-1 { background-color: #DEFBCD; }
+#nairobi-group-1 { background-color: #DECDFB; }
+#new-orleans-group-1 { background-color: #FFE792; }
 
 
 /********* SECTION 2: INTRO *********/
@@ -170,14 +189,17 @@ a:hover.giza-btn { background-color: #FEB702; }
 	background-repeat: no-repeat;
 	height: 687.17px;
 	padding: 70px 100px 90px 660px;
+	color: white;
 	font-weight: 400;
 }
 .section-3 h2 { margin-bottom: 40px; }
 .section-3 p { margin-bottom: 20px; }
 
 /* Culture Colors */
-.white { color: white; }
 #giza-culture { background-color: #B54900; }
+#fuzhou-culture { background-color: #0C79B6; }
+#nairobi-culture { background-color: #A7352D; }
+#new-orleans-culture { background-color: #B50057; }
 
 
 /********* SECTION 4: CUISINES *********/
