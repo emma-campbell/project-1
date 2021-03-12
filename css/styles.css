@@ -11,6 +11,7 @@ body {
 	height: 100%;
 	color: #202020;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	letter-spacing: 0.05em;
 }
 img { border-radius: 10px; }
@@ -80,10 +81,13 @@ main h3 {
 	background-color: #B54900;
 	background-repeat: no-repeat;
 	height: 687.17px;
-	padding: 90px 100px 90px 660px;
+	padding: 70px 100px 90px 660px;
+	font-weight: 300;
 }
 
 .section-3 h2 { margin-bottom: 40px; }
+
+.section-3 p { margin-bottom: 20px; }
 
 
 /********* SECTION 4: CUISINES *********/
