@@ -216,3 +216,43 @@ h1 {
 .content-right { margin-right: 100px; }
 .content-left { margin-left: 100px; }
 .section-5 img { align-self: center; }
+
+
+/********* SECTION 6: ADVENTURE *********/
+.section-6 {
+	text-align: center;
+	padding: 70px 0px 90px 0px;
+}
+.section-6 h2 {
+	padding-bottom: 80px;
+}
+
+
+/********* FOOTER *********/
+footer {
+	background-color: #292929;
+	padding: 50px 100px 80px 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
