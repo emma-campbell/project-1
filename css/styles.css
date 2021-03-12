@@ -186,8 +186,6 @@ a:hover.giza-btn { background-color: #FEB702; }
 .section-4 {
 	text-align: center;
 	padding: 90px 100px;
-	display: grid;
-	grid-template-rows: 0.2fr 1fr;
 }
 .section-4 h2 { margin-bottom: 80px; }
 .section-4 h3 {
@@ -206,33 +204,17 @@ a:hover.giza-btn { background-color: #FEB702; }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /********* SECTION 5: ATTRACTIONS *********/
 .section-5 {
 	background-color: #F1F1F1;
 	padding: 90px 100px 80px 100px;
-	display: grid;
-	grid-template-rows: 0.2fr repeat(3, 1fr)
 }
 .section-5 h2 { margin-bottom: 50px; }
-
 .section-5-content {
 	display: flex;
 	margin-bottom: 100px;
 }
-.left { flex-direction: row-reverse; }
+#left { flex-direction: row-reverse; }
 .content-right { margin-right: 100px; }
 .content-left { margin-left: 100px; }
 .section-5 img { align-self: center; }
@@ -268,23 +250,3 @@ footer li a:hover { color: white; }
 	font-style: italic;
 }
 footer ul, .credits { font-size: 13px; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
