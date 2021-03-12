@@ -268,11 +268,11 @@ footer p {
 	font-family: 'Playfair Display', serif;
 	margin-bottom: 20px;
 }
-footer ul {
+footer div {
 	margin-left: 15px;
 	display: flex;
 }
-footer ul div { margin-right: 90px; }
+footer div ul { margin-right: 90px; }
 footer li { line-height:  170%; }
 footer, footer li a:visited, footer li a:active, footer a:link { color: #808080; }
 footer li a:hover { color: white; }
