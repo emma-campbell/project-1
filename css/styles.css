@@ -19,6 +19,7 @@ body {
 }
 img, .btn, .city-group-1, .city-group-2 { border-radius: 10px; }
 
+
 /********* HEADER (NAV) *********/
 nav {
 	display: flex;
@@ -69,6 +70,7 @@ h3 {
 main p {
 	line-height: 200%;
 }
+
 /* Book Now Button */
 a:link.btn, a:visited.btn {
   text-align: center;
@@ -82,55 +84,6 @@ a:hover.btn {
 	transform: translateY(-15px);
 }
 .arrow { margin-left: 10px; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /********* SECTION 1: HEADING *********/
@@ -165,10 +118,8 @@ h1 {
 	margin-top: 100px;
 }
 
-
 /* Accents */
 .giza-btn, #giza-group-2 { background-color: #FEC83D; }
-
 
 /* Buttons */
 .giza-btn {
@@ -176,7 +127,6 @@ h1 {
 	box-shadow: 0px 4px 30px rgba(254, 200, 61, 0.75);
 }
 a:hover.giza-btn { background-color: #FEB702; }
-
 
 /* City Details */
 .city-group-1 {
@@ -195,31 +145,18 @@ a:hover.giza-btn { background-color: #FEB702; }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /********* SECTION 2: INTRO *********/
 .section-2 {
-	padding: 70px 100px 120px 100px;
+	padding: 70px 100px 150px 100px;
 	display: flex;
 }
 .section-2 img { align-self: center; }
 .section-2 h2 { margin-bottom: 40px; }
 .section-2 p { margin-bottom: 20px; }
-
 .section-2-content {
 	flex: 1;
 	margin-right: 100px;
 }
-
 .section-2-imgs {
 	flex: 1.1; 
 	display: grid;
@@ -227,6 +164,41 @@ a:hover.giza-btn { background-color: #FEB702; }
 }
 .intro-2 { margin: 20px 0px 0px 50px; }
 .intro-3 { margin: -20px 0px 0px 50px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /********* SECTION 3: CULTURE *********/
 .section-3 {
