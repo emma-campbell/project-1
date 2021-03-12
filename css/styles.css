@@ -182,16 +182,6 @@ a:hover.giza-btn { background-color: #FEB702; }
 #giza-culture { background-color: #B54900; }
 
 
-
-
-
-
-
-
-
-
-
-
 /********* SECTION 4: CUISINES *********/
 .section-4 {
 	text-align: center;
@@ -206,7 +196,7 @@ a:hover.giza-btn { background-color: #FEB702; }
 }
 .section-4 p { padding-top: 20px; }
 
-.section-4-content { /* RENAME FLEX PROPERTIES*/
+.section-4-content {
 	display: flex;
 	justify-content: space-between;
 }
@@ -214,6 +204,19 @@ a:hover.giza-btn { background-color: #FEB702; }
 	width: 32%;
 	padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /********* SECTION 5: ATTRACTIONS *********/
